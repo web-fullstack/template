@@ -1,0 +1,29 @@
+sudo: required
+os: osx
+language: node_js
+node:
+  - 10.16.3
+npm:
+  - 6.12.0
+before_install:
+  - echo "npm before install hook"
+install:
+  - echo "npm install hook"
+  - npm i
+before_script:
+  - echo "npm before script hook"
+script:
+  - echo "npm script hook"
+after_success:
+  - echo "npm after_success hook"
+after_failure:
+  - echo "npm after_failure hook"
+before_deploy:
+  - echo "npm before_deploy hook"
+deploy:
+  - echo "npm deploy hook"
+after_deploy:
+  - echo "npm after_deploy hook"
+after_script:
+  - echo "npm after_script hook"
+

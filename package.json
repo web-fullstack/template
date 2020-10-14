@@ -1,0 +1,35 @@
+{
+  "name": "github-template",
+  "version": "1.0.1",
+  "description": "github repo template",
+  "author": "xgqfrms",
+  "license": "MIT",
+  "main": "src/index.js",
+  "keywords": [
+    "js",
+    "node.js",
+    "web",
+    "fullstack"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build/index.min.js",
+    ".editorconfig",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgqfrms/template/issues"
+  },
+  "homepage": "https://github.com/xgqfrms/template#readme"
+}
